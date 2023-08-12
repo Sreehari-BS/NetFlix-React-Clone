@@ -1,0 +1,32 @@
+.Section-row {
+    margin-left: 30px;
+}
+
+.Section-row-poster {
+    display: flex;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+.Section-row-poster::-webkit-scrollbar {
+    display: none;
+}
+
+.Section-row-poster-img {
+    object-fit: contain;
+    max-height: 100px;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+
+.Section-row-poster-img:hover {
+    transform: scale(1.5);
+}
+
+.isLarge {
+    max-height: 250px;
+}
+
+.isLarge:hover {
+    transform: scale(1.2);
+}
